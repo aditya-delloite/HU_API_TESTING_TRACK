@@ -60,7 +60,7 @@ public class Create_User {
                     body(json).
                     when().
                     post("https://api-nodejs-todolist.herokuapp.com/user/register").
-                    then().extract();
+                    then().statusCode(201).extract();
 
           log.info("Account registered");
             System.out.println(response.asString());

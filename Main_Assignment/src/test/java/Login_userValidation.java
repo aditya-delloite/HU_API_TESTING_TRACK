@@ -56,7 +56,7 @@ public class Login_userValidation {
                     body(json).
                     when().
                     post("https://api-nodejs-todolist.herokuapp.com/user/login").
-                    then().extract();
+                    then().statusCode(200).extract();
 
             System.out.println(response.asString());
 

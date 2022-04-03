@@ -59,6 +59,7 @@ public class Add_Tasks {
                     .when()
                     .post()
                     .then()
+                    .statusCode(201)
                     .extract().response();
 
 
@@ -99,6 +100,7 @@ public class Add_Tasks {
                         .when()
                         .get()
                         .then()
+                        .statusCode(200)
                         .extract().response();
 
 

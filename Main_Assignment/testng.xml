@@ -12,6 +12,7 @@
             <class name="Add_Tasks"></class>
             <class name="javaUtility"></class>
             <class name="Listeners"></class>
+            <class name="positiveNegativeCases"></class>
         </classes>
     </test>
 </suite>
