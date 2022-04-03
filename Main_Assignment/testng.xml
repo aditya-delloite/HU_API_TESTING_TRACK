@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners"></listener>
+    </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/adityakumar3/HU_SELENIUM_TRACK/API_TESTING_TRACK">
         <classes>
 
@@ -8,6 +11,7 @@
             <class name="Login_userValidation"></class>
             <class name="Add_Tasks"></class>
             <class name="javaUtility"></class>
+            <class name="Listeners"></class>
         </classes>
     </test>
 </suite>
