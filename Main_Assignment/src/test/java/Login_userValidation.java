@@ -1,5 +1,7 @@
 import com.google.gson.Gson;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
@@ -17,11 +19,16 @@ public class Login_userValidation {
     String SHEET_NAME_INSIDE_THE_EXCEL = "database";
 
 
+    private  static final String LOG_FILE = "log4j.properties";
+
+    // TO ADD LOGGING IN OUR PROGRAM
+    private static Logger log  = LogManager.getLogger(Login_userValidation.class);
+
 
     @Test(priority = 2)
     public void user_Login_and_Validation() throws IOException {
 
-
+   log.info("LOGGING IN");
         int rowCount = javaUtility.getRowCount(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL);
 
 
@@ -32,8 +39,7 @@ public class Login_userValidation {
             String password = javaUtility.getCellvalue(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL, i, 2);
 
 
-
-
+            log.info("Entered id and password");
 
             Map bodyParameters = new LinkedHashMap();
 
@@ -54,7 +60,7 @@ public class Login_userValidation {
 
             System.out.println(response.asString());
 
-
+        log.info("Successfully logged in");
 
 
             //Validating Credentials
@@ -65,10 +71,12 @@ public class Login_userValidation {
             if(arr.getJSONObject("user").get("email").equals(email))
             {
                 System.out.println("VALID CREDENTIALS EMAIL GOT MATCHED");
+                log.info("VALID CREDENTIALS EMAIL GOT MATCHED");
             }
             else
             {
                 System.out.println("INVALID CREDENTIAL EMAIL DOES NOT MATCHED");
+                log.info("INVALID CREDENTIAL EMAIL DOES NOT MATCHED");
             }
 
 

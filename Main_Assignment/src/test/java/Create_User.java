@@ -1,11 +1,14 @@
 import com.google.gson.Gson;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Properties;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -17,11 +20,20 @@ public class Create_User {
     String Path_Of_Excel_File = "C:\\Users\\adityakumar3\\Desktop\\DataBase_Api\\DataBase.xlsx";
     String SHEET_NAME_INSIDE_THE_EXCEL = "database";
 
+
+
+    private  static final String LOG_FILE = "log4j.properties";
+
+    // TO ADD LOGGING IN OUR PROGRAM
+    private static Logger log  = LogManager.getLogger(Create_User.class);
+
+    Properties properties = new Properties();
+
+
     @Test(priority = 1)
     public void create_user() throws IOException {
 
-
-
+        log.info("Fetching the user database from excel file");
 
         int rowCount = javaUtility.getRowCount(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL);
 
@@ -41,6 +53,7 @@ public class Create_User {
             Gson gson = new Gson();
             String json = gson.toJson(bodyParameters, LinkedHashMap.class);
 
+     log.info("User name, email ,password and age added");
 
             Response response = (Response) given().
                     contentType("application/json").
@@ -49,6 +62,7 @@ public class Create_User {
                     post("https://api-nodejs-todolist.herokuapp.com/user/register").
                     then().extract();
 
+          log.info("Account registered");
             System.out.println(response.asString());
 
             //Validating Credentials
@@ -59,18 +73,22 @@ public class Create_User {
             if(arr.getJSONObject("user").get("email").equals(email))
             {
                 System.out.println("VALID CREDENTIALS EMAIL GOT MATCHED");
+                log.info("VALID CREDENTIALS EMAIL GOT MATCHED");
             }
             else
             {
                 System.out.println("INVALID CREDENTIAL EMAIL DOES NOT MATCHED");
+                log.info("INVALID CREDENTIAL EMAIL DOES NOT MATCHED");
             }
 
             //STORING THE TOKENS OF USERS WHICH WE ARE REGISTERING
               javaUtility.STORING_TOKENS_HERE.add((String) arr.get("token"));
 
-
+                log.info("Storing Token Generated in dynamic array1");
 
             javaUtility.STORING_Ids_Here.add((String) arr.getJSONObject("user").get("_id"));
+            log.info("Storing unique id Generated in dynamic array2");
+
 
 
         }

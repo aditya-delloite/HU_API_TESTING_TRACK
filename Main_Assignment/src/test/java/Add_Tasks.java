@@ -1,6 +1,8 @@
 import com.google.gson.Gson;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
@@ -15,6 +17,12 @@ import static org.hamcrest.Matchers.equalTo;
 public class Add_Tasks {
 
 
+    private  static final String LOG_FILE = "log4j.properties";
+
+    // TO ADD LOGGING IN OUR PROGRAM
+    private static Logger log  = LogManager.getLogger(Add_Tasks.class);
+
+
     String Path_Of_Excel_File = "C:\\Users\\adityakumar3\\Desktop\\DataBase_Api\\addingTasks_db.xlsx";
     String SHEET_NAME_INSIDE_THE_EXCEL = "Sheet1";
 
@@ -23,7 +31,7 @@ public class Add_Tasks {
     @Test(priority = 3)
     public void add_twentyTasks() throws IOException {
 
-
+       log.info("Adding 20 Tasks");
         int rowCount = javaUtility.getRowCount(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL);
 
         System.out.println(rowCount);
@@ -54,6 +62,7 @@ public class Add_Tasks {
                     .extract().response();
 
 
+
             JSONObject arr = new JSONObject(response.asString());
             System.out.println();
 
@@ -65,7 +74,7 @@ public class Add_Tasks {
             {
                 validating_tasks =true;
             }
-
+            log.info("task added");
 
             System.out.println(response.asString());
         }
@@ -76,6 +85,7 @@ public class Add_Tasks {
     @Test(priority = 4, dependsOnMethods = "add_twentyTasks")
     public void validating_Tasks() throws IOException {
 
+        log.info("Validating tasks");
         String Unique_id = javaUtility.STORING_Ids_Here.get(0);
 
         int rowCount = javaUtility.getRowCount(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL);
@@ -99,9 +109,11 @@ public class Add_Tasks {
                 assertThat(j.getString("data[0].owner"), equalTo(Unique_id));
 
                if(j.getString("data[0].owner").equals(Unique_id) && validating_tasks)
-                    System.out.println("TASK SUCCESSFULLY ADDED    VALIDATION PASSED");
-                else
+               {   System.out.println("TASK SUCCESSFULLY ADDED    VALIDATION PASSED");
+               log.info("TASK SUCCESSFULLY ADDED    VALIDATION PASSED");}
+                else{
                     System.out.println("TASK DOES NOT MATCHED    VALIDATION FAILED");
+                log.info("TASK DOES NOT MATCHED    VALIDATION FAILED");}
 
             }
 
