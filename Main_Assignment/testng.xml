@@ -7,6 +7,7 @@
             <class name="Create_User"></class>
             <class name="Login_userValidation"></class>
             <class name="Add_Tasks"></class>
+            <class name="javaUtility"></class>
         </classes>
     </test>
 </suite>
