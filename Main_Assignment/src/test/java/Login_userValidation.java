@@ -11,13 +11,14 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Login_userValidation extends  Create_User{
+public class Login_userValidation {
+
+    String Path_Of_Excel_File = "C:\\Users\\adityakumar3\\Desktop\\DataBase_Api\\DataBase.xlsx";
+    String SHEET_NAME_INSIDE_THE_EXCEL = "database";
 
 
 
-
-
-    @Test
+    @Test(priority = 2)
     public void user_Login_and_Validation() throws IOException {
 
 
@@ -73,8 +74,6 @@ public class Login_userValidation extends  Create_User{
 
 
         }
-
-
 
 
 

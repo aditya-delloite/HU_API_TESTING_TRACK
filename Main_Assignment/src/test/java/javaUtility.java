@@ -13,6 +13,10 @@ public class javaUtility {
     //This ArrayList will store the tokens of every new registered users
         static   public ArrayList<String> STORING_TOKENS_HERE = new ArrayList<>();
 
+    //This ArrayList will store the unique ids of every new registered users
+    static   public ArrayList<String> STORING_Ids_Here= new ArrayList<>();
+
+
         public static FileInputStream fileinput; //Pre-defined class present in java for reading the file
         public static XSSFWorkbook workbook;   //XSSFWorkbook is a class For workbook, we have created an object of the workbook
         public static XSSFSheet worksheet;  //XSSFSheet is a class For worksheet, we have created an object of the worksheet

@@ -17,7 +17,7 @@ public class Create_User {
     String Path_Of_Excel_File = "C:\\Users\\adityakumar3\\Desktop\\DataBase_Api\\DataBase.xlsx";
     String SHEET_NAME_INSIDE_THE_EXCEL = "database";
 
-    @Test
+    @Test(priority = 1)
     public void create_user() throws IOException {
 
 
@@ -67,6 +67,12 @@ public class Create_User {
 
             //STORING THE TOKENS OF USERS WHICH WE ARE REGISTERING
               javaUtility.STORING_TOKENS_HERE.add((String) arr.get("token"));
+
+
+
+            javaUtility.STORING_Ids_Here.add((String) arr.getJSONObject("user").get("_id"));
+
+
         }
 
 
