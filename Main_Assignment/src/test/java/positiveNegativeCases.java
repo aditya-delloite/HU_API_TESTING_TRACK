@@ -44,11 +44,11 @@ public class positiveNegativeCases {
 
         log.info("User name, email ,password and age added");
 
-        Response response = (Response) given().
+        Response response = (Response) given().baseUri("https://api-nodejs-todolist.herokuapp.com/user/register").
                 contentType("application/json").
                 body(json).
                 when().
-                post("https://api-nodejs-todolist.herokuapp.com/user/register").
+                post().
                 then().extract();
 
         log.info(response.asString());
@@ -56,10 +56,10 @@ public class positiveNegativeCases {
 
         String str = String.valueOf(response.statusCode());
 
-        if(!str.equals(201)){
-            System.out.println("Expected Status Code should be 201 but status code is " + response.statusCode());
+        if(str.equals(400)){
+            System.out.println("Expected Status Code should be 400 and status code is " + response.statusCode());
             log.info(response.statusCode());
-            Assert.assertTrue(str.equals(201));
+            Assert.assertTrue(str.equals(400));
         }
 
 
@@ -91,11 +91,11 @@ public class positiveNegativeCases {
 
 
 
-        Response response = (Response) given().
+        Response response = (Response) given().baseUri("https://api-nodejs-todolist.herokuapp.com/user/login").
                 contentType("application/json").
                 body(json).
                 when().
-                post("https://api-nodejs-todolist.herokuapp.com/user/login").
+                post().
                 then().extract();
 
         log.info(response.asString());
@@ -103,21 +103,21 @@ public class positiveNegativeCases {
         System.out.println(response.asString());
         String str = String.valueOf(response.statusCode());
 
-        if(!str.equals(200)){
-            System.out.println("Expected Status Code should be 200 but status code is " + response.statusCode());
+        if(str.equals(400)){
+            System.out.println("Expected Status Code should be 400 and status code is " + response.statusCode());
             log.info(response.statusCode());
-            Assert.assertTrue(str.equals(200));
+            Assert.assertTrue(str.equals(400));
         }
 
     }
 
 
-    @Test(priority = 7) //Adding Task
+    @Test(priority = 7) //Adding Tassk
     public void verifying_error_For_wrongRequestBody()
     {
         String Getting_Token = javaUtility.STORING_TOKENS_HERE.get(0);
 
-        String Wrong_request_Body = "SENDING INVALID DATA";
+        String Wrong_request_Body = "SENDING INVALID DATA"; //Not a json object
 
         log.info("Trying to add task but with the wrong request body");
 
@@ -135,10 +135,10 @@ public class positiveNegativeCases {
         System.out.println(response.asString());
         String str = String.valueOf(response.statusCode());
 
-        if(!str.equals(201)){
-            System.out.println("Expected Status Code should be 201 but status code is " + response.statusCode());
+        if(str.equals(400)){
+            System.out.println("Expected Status Code should be 400 and status code is " + response.statusCode());
             log.info(response.statusCode());
-            Assert.assertTrue(str.equals(201));
+            Assert.assertTrue(str.equals(400));
         }
 
 

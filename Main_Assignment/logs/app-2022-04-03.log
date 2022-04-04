@@ -1,0 +1,598 @@
+[INFO ] 2022-04-03 19:18:24.624 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 19:18:25.318 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 19:18:28.743 [main] Create_User - Account registered
+[INFO ] 2022-04-03 19:18:28.771 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:18:28.771 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 19:18:28.771 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 19:18:28.846 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 19:18:30.576 [main] Create_User - Account registered
+[INFO ] 2022-04-03 19:18:30.577 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:18:30.587 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 19:18:30.588 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 19:18:30.682 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 19:18:32.599 [main] Create_User - Account registered
+[INFO ] 2022-04-03 19:18:32.600 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:18:32.600 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 19:18:32.601 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 19:18:32.625 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 19:18:32.699 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 19:18:34.379 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 19:18:34.380 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:18:34.421 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 19:18:36.310 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 19:18:36.311 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:18:36.358 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 19:18:38.117 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 19:18:38.117 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:18:38.120 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 19:18:40.047 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:41.937 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:43.841 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:45.533 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:47.421 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:49.333 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:51.011 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:52.644 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:54.329 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:56.004 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:57.672 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:18:59.452 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:01.117 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:02.783 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:04.669 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:06.573 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:08.437 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:10.275 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:11.962 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:13.805 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:19:13.808 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 19:19:16.253 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:17.983 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:19.861 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:21.520 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:23.439 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:25.124 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:26.916 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:28.886 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:30.599 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:32.506 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:34.388 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:36.109 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:37.799 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:39.665 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:41.424 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:43.167 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:44.897 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:46.630 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:48.561 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:19:50.314 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:42:36.876 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 19:42:37.523 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 19:42:40.855 [main] Create_User - Account registered
+[INFO ] 2022-04-03 19:42:40.872 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:42:40.872 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 19:42:40.872 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 19:42:40.971 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 19:42:42.878 [main] Create_User - Account registered
+[INFO ] 2022-04-03 19:42:42.878 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:42:42.878 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 19:42:42.878 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 19:42:42.978 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 19:42:45.018 [main] Create_User - Account registered
+[INFO ] 2022-04-03 19:42:45.035 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:42:45.035 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 19:42:45.035 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 19:42:45.051 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 19:42:45.152 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 19:42:47.066 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 19:42:47.066 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:42:47.135 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 19:42:49.110 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 19:42:49.110 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:42:49.165 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 19:42:51.065 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 19:42:51.065 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 19:42:51.065 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 19:42:52.885 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:42:54.844 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:42:56.692 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:42:58.419 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:00.255 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:02.021 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:03.970 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:06.018 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:07.951 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:09.815 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:11.851 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:13.693 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:15.643 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:17.364 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:19.140 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:21.072 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:22.904 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:24.735 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:26.551 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:28.417 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 19:43:28.433 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 19:43:30.963 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:32.879 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:34.860 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:36.743 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:38.709 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:40.574 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:42.621 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:44.452 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:46.279 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:48.216 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:49.968 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:51.817 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:53.544 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:55.492 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:57.444 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:43:59.190 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:44:01.075 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:44:02.955 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:44:04.911 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 19:44:06.784 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:16:44.363 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 20:16:45.069 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:16:48.568 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:16:48.597 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:16:48.597 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:16:48.597 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:16:48.687 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:16:50.421 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:16:50.421 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:16:50.421 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:16:50.421 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:16:50.488 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:16:52.496 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:16:52.512 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:16:52.512 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:16:52.512 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:16:52.531 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 20:16:52.612 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:16:54.530 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:16:54.530 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:16:54.601 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:16:56.546 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:16:56.546 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:16:56.586 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:16:58.443 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:16:58.443 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:16:58.444 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 20:17:00.272 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:01.956 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:03.868 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:05.801 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:07.552 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:09.538 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:11.346 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:13.145 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:15.117 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:17.074 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:19.843 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:21.688 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:23.523 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:25.517 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:27.352 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:29.255 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:31.312 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:33.111 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:34.993 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:36.836 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:17:36.836 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 20:17:39.189 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:41.088 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:43.026 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:44.885 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:46.720 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:48.665 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:50.697 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:52.645 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:54.477 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:56.242 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:17:58.074 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:00.030 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:01.854 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:03.619 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:05.419 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:07.291 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:09.214 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:11.097 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:12.912 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:18:14.901 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:19:39.024 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 20:19:39.723 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:19:43.288 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:19:43.304 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:19:43.304 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:19:43.304 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:19:43.405 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:19:45.192 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:19:45.192 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:19:45.192 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:19:45.192 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:19:45.318 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:19:47.266 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:19:47.266 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:19:47.266 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:19:47.266 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:19:47.300 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 20:19:47.368 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:19:49.309 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:19:49.310 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:19:49.332 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:19:51.075 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:19:51.075 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:19:51.115 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:19:52.845 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:19:52.845 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:19:52.845 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 20:19:54.869 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:19:57.023 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:19:58.891 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:00.827 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:02.655 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:04.503 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:06.251 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:08.093 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:10.035 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:11.785 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:13.729 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:15.665 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:17.514 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:19.340 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:21.290 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:23.141 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:24.891 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:26.723 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:28.484 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:30.268 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:20:30.268 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 20:20:32.579 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:34.451 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:36.212 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:38.142 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:40.074 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:41.806 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:43.587 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:45.604 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:47.353 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:49.187 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:51.031 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:52.946 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:54.913 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:56.761 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:20:58.698 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:21:00.656 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:21:02.405 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:21:04.340 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:21:06.268 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:21:08.231 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:21:08.267 [main] Add_Tasks - User name, email ,password and age added
+[INFO ] 2022-04-03 20:21:10.000 [main] Add_Tasks - Entered id and password
+[INFO ] 2022-04-03 20:24:12.615 [main] Add_Tasks - User name, email ,password and age added
+[INFO ] 2022-04-03 20:34:34.120 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 20:34:34.689 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:34:38.083 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:34:38.101 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:34:38.101 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:34:38.101 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:34:38.202 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:34:40.182 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:34:40.182 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:34:40.182 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:34:40.182 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:34:40.281 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:34:42.011 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:34:42.011 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:34:42.011 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:34:42.011 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:34:42.027 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 20:34:42.114 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:34:43.997 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:34:43.997 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:34:44.050 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:34:45.833 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:34:45.833 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:34:45.893 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:34:47.767 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:34:47.767 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:34:47.767 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 20:34:49.856 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:34:51.822 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:34:53.838 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:34:55.835 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:34:57.712 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:34:59.786 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:01.834 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:03.812 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:05.549 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:07.426 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:09.317 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:11.463 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:13.326 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:15.131 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:17.090 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:18.833 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:20.881 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:22.731 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:24.563 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:26.388 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:35:26.389 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 20:35:28.760 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:30.640 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:32.406 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:34.353 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:36.174 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:37.984 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:39.882 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:41.714 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:43.430 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:45.396 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:47.226 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:48.975 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:50.699 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:52.645 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:54.488 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:57.368 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:35:59.433 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:36:01.248 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:36:03.227 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:36:04.913 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:36:04.984 [main] Add_Tasks - User name, email ,password and age added
+[INFO ] 2022-04-03 20:36:06.494 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:36:06.531 [main] Add_Tasks - Entered id and password
+[INFO ] 2022-04-03 20:36:08.042 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:46:43.934 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 20:46:44.534 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:46:48.207 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:46:48.222 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:46:48.223 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:46:48.223 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:46:48.307 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:46:50.080 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:46:50.088 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:46:50.088 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:46:50.088 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:46:50.181 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:46:53.040 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:46:53.040 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:46:53.040 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:46:53.040 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:46:53.057 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 20:46:53.144 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:46:54.881 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:46:54.881 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:46:54.927 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:46:56.895 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:46:56.897 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:46:56.928 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:46:58.940 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:46:58.940 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:46:58.940 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 20:47:00.889 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:02.937 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:04.770 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:06.717 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:08.650 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:10.430 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:12.144 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:13.978 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:15.920 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:17.791 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:19.623 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:21.464 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:23.308 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:25.153 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:27.094 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:29.040 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:30.897 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:32.748 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:34.451 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:36.410 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:47:36.410 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 20:47:38.939 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:40.827 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:43.215 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:45.153 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:47.111 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:49.265 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:51.080 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:53.062 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:54.903 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:56.797 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:47:58.757 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:00.740 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:02.682 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:06.628 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:08.476 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:10.548 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:12.599 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:14.435 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:16.357 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:18.211 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:48:18.260 [main] Add_Tasks - User name, email ,password and age added
+[INFO ] 2022-04-03 20:48:20.148 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:48:20.173 [main] Add_Tasks - Entered id and password
+[INFO ] 2022-04-03 20:48:21.736 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:48:23.169 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:53:51.708 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 20:53:52.270 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:53:55.800 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:53:55.819 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:53:55.819 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:53:55.819 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:53:55.952 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:53:57.770 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:53:57.770 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:53:57.770 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:53:57.770 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:53:57.872 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:53:59.827 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:53:59.827 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:53:59.827 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:53:59.827 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:53:59.833 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 20:53:59.926 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:54:01.845 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:54:01.845 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:54:01.922 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:54:03.906 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:54:03.906 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:54:03.974 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:54:05.824 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:54:05.824 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:54:05.824 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 20:54:07.786 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:09.452 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:11.168 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:13.158 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:14.945 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:16.997 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:19.002 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:21.143 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:23.260 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:25.202 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:27.122 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:28.886 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:30.818 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:32.801 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:34.636 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:36.441 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:38.398 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:40.336 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:42.415 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:44.129 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:54:44.145 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 20:54:46.621 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:48.422 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:50.235 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:52.084 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:53.999 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:55.955 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:58.014 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:54:59.845 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:01.693 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:03.640 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:05.474 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:07.417 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:09.156 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:10.973 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:12.938 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:14.691 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:16.624 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:18.579 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:20.387 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:22.356 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:55:22.356 [main] Add_Tasks - Registering same user again in order to verify the error
+[INFO ] 2022-04-03 20:55:22.373 [main] Add_Tasks - User name, email ,password and age added
+[INFO ] 2022-04-03 20:55:23.975 [main] Add_Tasks - "E11000 duplicate key error collection: todo-list.users index: email_1 dup key: { email: \"manoj2676@gmail.com\" }"
+[INFO ] 2022-04-03 20:55:23.975 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:55:23.991 [main] Add_Tasks - Logging in with the wrong id and password
+[INFO ] 2022-04-03 20:55:24.008 [main] Add_Tasks - Entered id and password
+[INFO ] 2022-04-03 20:55:25.563 [main] Add_Tasks - "Unable to login"
+[INFO ] 2022-04-03 20:55:25.563 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:55:25.563 [main] Add_Tasks - Trying to add task but with the wrong request body
+[INFO ] 2022-04-03 20:55:27.038 [main] Add_Tasks - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+[INFO ] 2022-04-03 20:55:27.038 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:57:42.510 [main] Create_User - Fetching the user database from excel file
+[INFO ] 2022-04-03 20:57:43.100 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:57:46.574 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:57:46.590 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:57:46.590 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:57:46.590 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:57:46.691 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:57:48.505 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:57:48.505 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:57:48.505 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:57:48.505 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:57:48.638 [main] Create_User - User name, email ,password and age added
+[INFO ] 2022-04-03 20:57:50.466 [main] Create_User - Account registered
+[INFO ] 2022-04-03 20:57:50.466 [main] Create_User - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:57:50.466 [main] Create_User - Storing Token Generated in dynamic array1
+[INFO ] 2022-04-03 20:57:50.466 [main] Create_User - Storing unique id Generated in dynamic array2
+[INFO ] 2022-04-03 20:57:50.496 [main] Login_userValidation - LOGGING IN
+[INFO ] 2022-04-03 20:57:50.555 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:57:53.431 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:57:53.431 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:57:53.472 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:57:55.334 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:57:55.334 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:57:55.384 [main] Login_userValidation - Entered id and password
+[INFO ] 2022-04-03 20:57:57.171 [main] Login_userValidation - Successfully logged in
+[INFO ] 2022-04-03 20:57:57.171 [main] Login_userValidation - VALID CREDENTIALS EMAIL GOT MATCHED
+[INFO ] 2022-04-03 20:57:57.171 [main] Add_Tasks - Adding 20 Tasks
+[INFO ] 2022-04-03 20:57:59.014 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:00.964 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:02.793 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:04.645 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:06.492 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:08.439 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:10.298 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:12.054 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:13.889 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:15.694 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:17.749 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:19.599 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:22.051 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:23.826 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:25.629 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:27.453 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:29.404 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:31.271 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:33.002 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:34.687 [main] Add_Tasks - task added
+[INFO ] 2022-04-03 20:58:34.703 [main] Add_Tasks - Validating tasks
+[INFO ] 2022-04-03 20:58:37.081 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:39.017 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:40.836 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:42.876 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:44.768 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:46.729 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:48.822 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:50.754 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:52.812 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:54.567 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:56.574 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:58:58.537 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:00.508 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:02.228 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:04.193 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:06.109 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:08.090 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:10.106 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:11.964 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:14.002 [main] Add_Tasks - TASK SUCCESSFULLY ADDED    VALIDATION PASSED
+[INFO ] 2022-04-03 20:59:14.002 [main] Add_Tasks - Registering same user again in order to verify the error
+[INFO ] 2022-04-03 20:59:14.068 [main] Add_Tasks - User name, email ,password and age added
+[INFO ] 2022-04-03 20:59:15.556 [main] Add_Tasks - "E11000 duplicate key error collection: todo-list.users index: email_1 dup key: { email: \"manooj2676@gmail.com\" }"
+[INFO ] 2022-04-03 20:59:15.556 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:59:15.567 [main] Add_Tasks - Logging in with the wrong id and password
+[INFO ] 2022-04-03 20:59:15.602 [main] Add_Tasks - Entered id and password
+[INFO ] 2022-04-03 20:59:17.122 [main] Add_Tasks - "Unable to login"
+[INFO ] 2022-04-03 20:59:17.122 [main] Add_Tasks - 400
+[INFO ] 2022-04-03 20:59:17.122 [main] Add_Tasks - Trying to add task but with the wrong request body
+[INFO ] 2022-04-03 20:59:18.765 [main] Add_Tasks - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+[INFO ] 2022-04-03 20:59:18.765 [main] Add_Tasks - 400

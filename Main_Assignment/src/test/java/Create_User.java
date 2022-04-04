@@ -17,6 +17,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class Create_User {
 
 
+    //Path and sheet name of the database(Excel File)
     String Path_Of_Excel_File = "C:\\Users\\adityakumar3\\Desktop\\DataBase_Api\\DataBase.xlsx";
     String SHEET_NAME_INSIDE_THE_EXCEL = "database";
 
@@ -30,13 +31,16 @@ public class Create_User {
     Properties properties = new Properties();
 
 
+    //Registering new user with the required details
     @Test(priority = 1)
     public void create_user() throws IOException {
 
         log.info("Fetching the user database from excel file");
 
+        //Fetching number of rows we have in excl file
         int rowCount = javaUtility.getRowCount(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL);
 
+        //Iterating through the rows
         for (int i = 1; i <=rowCount; i++) {
             String name = javaUtility.getCellvalue(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL, i, 0);
             String email = javaUtility.getCellvalue(Path_Of_Excel_File, SHEET_NAME_INSIDE_THE_EXCEL, i, 1);
@@ -50,16 +54,19 @@ public class Create_User {
             bodyParameters.put("password", password);
             bodyParameters.put("age", age);
 
+            //Google Gson is a simple Java-based library to serialize Java objects to JSON and vice versa
+
+            //Converting hashmap to json object
             Gson gson = new Gson();
             String json = gson.toJson(bodyParameters, LinkedHashMap.class);
 
      log.info("User name, email ,password and age added");
 
-            Response response = (Response) given().
+            Response response = (Response) given(). baseUri("https://api-nodejs-todolist.herokuapp.com/user/register").
                     contentType("application/json").
                     body(json).
                     when().
-                    post("https://api-nodejs-todolist.herokuapp.com/user/register").
+                    post().
                     then().statusCode(201).extract();
 
           log.info("Account registered");

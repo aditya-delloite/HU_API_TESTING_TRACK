@@ -13,6 +13,7 @@
             <class name="javaUtility"></class>
             <class name="Listeners"></class>
             <class name="positiveNegativeCases"></class>
+            <class name="pagination_Test"></class>
         </classes>
     </test>
 </suite>

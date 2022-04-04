@@ -49,13 +49,13 @@ public class Login_userValidation {
             Gson gson = new Gson();
             String json = gson.toJson(bodyParameters, LinkedHashMap.class);
 
+           
 
-
-            Response response = (Response) given().
+            Response response = (Response) given().baseUri("https://api-nodejs-todolist.herokuapp.com/user/login").
                     contentType("application/json").
                     body(json).
                     when().
-                    post("https://api-nodejs-todolist.herokuapp.com/user/login").
+                    post().
                     then().statusCode(200).extract();
 
             System.out.println(response.asString());

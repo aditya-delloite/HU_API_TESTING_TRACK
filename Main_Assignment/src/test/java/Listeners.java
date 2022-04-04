@@ -37,7 +37,7 @@ public class Listeners  extends TestListenerAdapter {
         //These, Below statements will be used To send some information to the report
 
         HtmlReporter.config().setDocumentTitle("Automation report"); //Title of the report
-        HtmlReporter.config().setReportName("REPORT ON XYZ BANK"); //Name of the report
+        HtmlReporter.config().setReportName("REPORT ON TODO API"); //Name of the report
         HtmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); // Chart Location
         HtmlReporter.config().setTheme(Theme.DARK); //Theme of the page
     }
